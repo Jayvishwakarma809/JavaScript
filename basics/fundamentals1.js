@@ -103,3 +103,83 @@ true =>string ->true
 
 
 
+
+//------------------------ Complex Operations------------------------------->
+
+// console.log(2+2);
+// console.log(2*2);
+// console.log(2-2);
+// console.log(2/2);
+// console.log(2**3);   // for power ** is used.
+// console.log(2+ "2"); // Here concatenation will perform.
+// console.log("2" +2); // Here also concatenation will perform.
+
+// console.log( 2 + 3 + "4");  // but here + perform first addition then concatinate.  54 output
+// console.log( "2" + 2 + 3);  // here + perform concatinate.   223 output
+
+// console.log(+true);   // output is 1.
+
+// let num1, num2, num3 ;
+// num1 = num2 = num3 =3;
+// console.log(num2);
+
+
+//-----------------------Comparisions ------------------------------->
+// ==, >, <, <=, >=, != .
+//when same data type is not compared.
+// console.log("2">1);
+// console.log(2<"03");
+
+//null
+// console.log(null>0);        // false
+// console.log(null==0);       // false
+// console.log(null>=0);       //true
+// console.log(null<=0);       // true
+
+// console.log(undefined>0);   // false 
+// console.log(undefined<0);   
+// console.log(undefined==0);   
+// console.log(undefined>=0);
+// console.log(undefined<=0);
+
+//=== strict check  -> it checks the data type also
+
+
+
+//----------------------------Data types -------------------------------->
+//Java script is dynamically typed language .
+
+
+// --- Primitive Datatypes > call by copy value .
+// 7 types : String , Number , Boolean , null , undefined , symbol , BigInt .
+
+
+// ----  Referrence type(Non-primitive) : Object , Array , function .
+// referrence type gives the origional reffernce of a value .
+
+// const marks = [23,33,34];        // array
+// console.log(marks);
+
+// let myObj = {                    // object
+//     name1 : "Jay",
+//     age : 21 ,
+//     class: "12th"
+// }
+
+// let myFunc = function(){         // function
+//     console.log("Hello From  myFunc");
+// }
+
+// console.log(myObj);
+// myFunc();
+
+
+
+
+
+
+
+
+
+
+
