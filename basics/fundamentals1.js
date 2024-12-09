@@ -176,6 +176,75 @@ true =>string ->true
 
 
 
+//---------------------------Strings---------------------------------------
+
+// let nameOne = "Jay";
+// let surname = "Vishwakarma";
+// let age = 20 ;
+// // console.log(nameOne + " " + surname); This one old syntax to cocatenate strings . 
+// // Now we have (backticks `) and this is known is String Interpolation.
+// console.log(`My name is ${nameOne} ${surname} and my age is ${age}`)  // We can concatenate any data types with it .
+
+// //How to daclare string in another way .
+
+// let gameName = new String("Itachi");
+// console.log(gameName);
+
+
+
+// Some methods of strings .
+
+
+// let nameOne = "Jay";
+// let surname = "Vishwakarma";
+// let gameName = new String("Itachi");
+
+// console.log(gameName[0]);
+// console.log(surname[2]);
+// console.log(gameName.length);
+// console.log(gameName.toUpperCase);
+
+// console.log(gameName.charAt(2) );
+// console.log(gameName.indexOf("a"));
+
+// let newName = gameName.substring(0,2);  // In this method lst index did not includes . 
+// console.log(newName);
+
+// let newName2 = gameName.slice(-5 , 2)
+// console.log(newName2);
+
+// let spaceStirng = "           Jay      ";
+// console.log(spaceStirng);
+// console.log(spaceStirng.trim()); // This methods trim the extra spaces .
+
+// let url = "https://hithesh.com/hitesh%20choudhry"
+
+// console.log(url.replace('%20',' '))
+// console.log(url.includes('hit'));
+// console.log(url.includes('hittt'));
+
+
+
+
+// ------------------Numbers----------------------
+
+// const score = 100 ;
+// const balance = new Number(200);
+// console.log(score);
+// console.log(balance);
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
