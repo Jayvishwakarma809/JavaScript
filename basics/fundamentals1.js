@@ -229,9 +229,58 @@ true =>string ->true
 // ------------------Numbers----------------------
 
 // const score = 100 ;
-// const balance = new Number(200);
+// const balance = new Number(200.88558);
 // console.log(score);
 // console.log(balance);
+
+// console.log(balance.toFixed(2));
+
+// const otherNum = 2223.8966;
+// console.log(otherNum.toPrecision(2));
+
+// const numTwo = 1000000 ;
+// console.log(numTwo.toLocaleString('en-IN'))
+
+// const max = Number.MAX_VALUE ;
+// const min = Number.MIN_VALUE ;
+// const safeMax = Number.MAX_SAFE_INTEGER ;
+// const safeMin = Number.MIN_SAFE_INTEGER ;
+// console.table([max , min ,safeMax,safeMin])
+
+
+
+//---------------------MATHS---------------------------
+
+// console.log(Math.abs(-4));            // It converts negative value into positive values .
+// console.log(Math.round(4.6))
+// console.log(Math.ceil(3.1));
+// console.log(Math.floor(4.9));
+// console.log(Math.random().toFixed(2));         // it gives value in range 0 to 1. we have to multiply with 10 or more .
+
+
+//Dice 
+// const min = 1 ;
+// const max = 6 ;
+// console.log(Math.floor(Math.random() * (max - min + 1)) + min);
+
+
+
+
+//-------------------------------------DATES AND TIME--------------------------------------------------------------------.
+
+// let myDate = new Date();
+// console.log(myDate.toDateString());
+// console.log(myDate.toLocaleDateString());
+// console.log(typeof myDate);
+
+let createDate = new Date("2023-01-14");
+console.log(createDate.getTime());
+
+
+let myTimeStamps = Date.now();
+console.log(myTimeStamps);
+console.log(myTimeStamps==createDate);
+
 
 
 
